@@ -1,0 +1,582 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/jquery.matchHeight-min.js"></script>
+<title>Jura Madencilik</title>
+<script>
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $("#navbar");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+  $(document).scroll(function () {
+    var $nav = $("#navbar a");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});</script>
+
+</head>
+
+<body>
+	<!--logo ve navigasyon bar-->
+<div class="container-fluid" id="navbar">   
+	<div class="row no-gutters">
+        <div class="col-2" id="navbarcol2">
+            <img src="img/logo-w.png" class="img-fluid mx-auto logo-white" alt="Jura">
+            <img src="img/logo.png" class="img-fluid mx-auto logo-black" alt="Jura">
+        </div>
+		<div class="col-8">
+			<nav class="nav nav-pills nav-justified">
+                <a class="nav-item nav-link active" id=""href="#main">Anasayfa</a>
+                <a class="nav-item nav-link" href="#mine">Maden</a>
+                <a class="nav-item nav-link" href="#environment">Çevre</a>
+                <a class="nav-item nav-link" href="#about">Hakkımızda</a>
+                <a class="nav-item nav-link" href="#team">Ekibimiz</a>
+                <a class="nav-item nav-link" href="#law">Kanunlar</a>
+                <a class="nav-item nav-link" href="#rule">Yönetmelikler</a>
+                <a class="nav-item nav-link" href="#reference">Ortaklarımız</a>
+                <a class="nav-item nav-link" href="#contact">İletişim</a>
+			</nav>
+          
+		</div>
+		<div class="col-2"></div>
+    </div>
+</div>
+    <!--logo ve navigasyon bar-->
+
+    <!--anasayfa resim ve üst yazılar-->
+<div class="container-fluid" id="main">
+	<div class="row no-gutters">
+        <div class="col-4"></div>
+        <div class="col-2" id="mainfirst">MADEN</div>
+        <div class="col-2" id="mainsecond">ÇEVRE</div>
+        <div class="col-4"></div>
+        
+        <div class="col-4" id="mainthird"></div>
+        <div class="col-2" id="mainfourth"><!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum elit id velit efficitur, at condimentum enim consectetur. Donec eget blandit felis, a ornare ligula.--></div>
+        <div class="col-2" id="mainfifth"><!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum elit id velit efficitur, at condimentum enim consectetur. Donec eget blandit felis, a ornare ligula.--></div>
+        <div class="col-4" id="mainsixth"></div>
+	</div>
+</div>
+	<!--anasayfa resim ve üst yazılar-->
+    
+    <!--maden içerikleri-->
+<div class="container-fluid" id="mine">
+	<div class="row no-gutters">
+		<div class="col-4">Madencilik alanındaki hizmetlerimiz...</div>
+        <div class="col-8"></div>
+	</div>
+</div>
+
+<div class="container-fluid" id="mineservices">
+	<div class="row no-gutters">
+		<div class="col-3">
+        	<ul>
+                <li>İşletme İzin Değişikliği</li>
+                <li>Patlayıcı Madde İzin Talebi</li>
+                <li>Mera Vasıf Değişiklikleri</li>
+                <li>Daimi Nezaretçi Atama ve İstifası</li>
+                <li>Teknik Elemen Atama ve İstifası</li>
+                <li>Vardiya Mühendisi Atama ve İstifası</li>
+                <li>Ruhsat Devir Müracaatı</li>
+                <li>Yeraltı/Yerüstü Temdit Projesi</li>
+                <li>Hidrojeolojik Etüt Raporu</li>
+                <li>El Karotu Muafiyet Yazısı</li>
+                <li>İşyeri Açma ve Çalıştırma Ruhsatı</li>
+            </ul>
+		</div>
+        <div class="col-3">
+        	<ul>
+                <li>İhale Dosyası Hazırlanması</li>
+                <li>Sınır Aplikasyonu</li>
+                <li>İmalat Haritası Ölçümleri</li>
+                <li>Bilgi Dökümü Alınması</li>
+                <li>Ruhsat Müracaatı</li>
+                <li>Ön İnceleme Raporu ve Maden Arama Projesi</li>
+                <li>Ön Arama Faaliyet Raporu</li>
+                <li>Genel Arama Faaliyet Raporu</li>
+                <li>Detay Arama Faaliyet Raporu</li>
+                <li>Fizibilite Raporu</li>
+                <li>3 Boyutlu Raporlama</li>
+            </ul>
+		</div>
+        <div class="col-3">
+        	<ul>
+                <li>Jeolojik Prospeksiyon</li>
+                <li>29. Madde Evrakları</li>
+                <li>Yeraltı/Yerüstü İşletme Projesi</li>
+			</ul>
+		</div>
+        <div class="col-3" id="mineservicestext"><!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum elit id velit efficitur, at condimentum enim consectetur. Donec eget blandit felis, a ornare ligula. Aliquam lobortis nunc sed augue fringilla varius sit amet eu massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum elit id velit efficitur, at condimentum enim consectetur. Donec eget blandit felis, a ornare ligula. Aliquam lobortis nunc sed augue fringilla varius sit amet eu massa.--></div>
+	</div>
+</div>
+	<!--maden içerikleri-->
+    
+    <!--resim-->
+<div class="container-fluid" id="mapimage">   
+    <div class="row no-gutters"></div>
+</div>    
+    <!--resim-->
+    
+  
+    <!--çevre içerikleri-->
+<div class="container-fluid" id="environment">
+	<div class="row no-gutters">
+		<div class="col-4">Çevre alanındaki hizmetlerimiz...</div>
+        <div class="col-8"></div>
+	</div>
+</div>
+
+<div class="container-fluid" id="environmentservices">
+	<div class="row no-gutters">
+    	<div class="col-3" id="environmentservicestext"><!--Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum elit id velit efficitur, at condimentum enim consectetur. Donec eget blandit felis, a ornare ligula. Aliquam lobortis nunc sed augue fringilla varius sit amet eu massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum elit id velit efficitur, at condimentum enim consectetur. Donec eget blandit felis, a ornare ligula. Aliquam lobortis nunc sed augue fringilla varius sit amet eu massa.-->
+        </div>
+		<div class="col-4">
+        	<ul>
+                <li>ÇED Raporu Hazırlama</li>
+                <li>Proje Tanıtım Dosyası Hazırlama</li>
+                <li>Arama Muafiyet Yazısı Başvuru Yapma</li>
+                <li>El Karotu Muafiyet Yazısı Alma</li>
+                <li>Hava Kalitesi Dağılım Modellemesi Raporu Hazırlama</li>
+                <li>Hidrojeolojik Etüd Raporu Hazırlama</li>
+                <li>Şev Stabilitesi Analiz Raporu Hazırlama</li>
+                <li>3 Boyutlu Modelleme İle Pasa ve Ocak Tasarımı Yapma</li>
+                <li>Termin ve Restorasyon Haritalarının Hazırlanması</li>  
+                <li>Atık Yönetim Planı</li>             
+            </ul>
+		</div>
+        <div class="col-4"></div>
+        <div class="col-1"></div>        
+	</div>
+</div>
+    <!--çevre içerikleri-->
+
+	<!--resim-->
+<div class="container-fluid" id="forest">   
+    <div class="row no-gutters"></div>
+</div>    
+    <!--resim-->
+            
+	<!--about-->
+<div class="container-fluid" id="about">   
+    <div class="row no-gutters">
+        <div class="col-4">Biz Kimiz?</div>
+        <div class="col-8"></div>
+        <div class="col-3"></div>
+        <div class="col-6">Bizler her biri alanında uzman, ilkeli ve dürüst çalışma anlayışını hedef almış, her işin zamanında yapılması gerektiğini amaç edinmiş, çeşitli mühendislik disiplinlerinden bir araya gelmiş ve madencilik ile ilgili her türlü yardımı sağlamaya çalışan bir ekibiz.           
+        </div>
+        <div class="col-3"></div>
+    </div>
+</div>    
+    <!--about-->
+
+    <!--resim-->
+<div class="container-fluid" id="hands">   
+    <div class="row no-gutters"></div>
+</div>
+	<!--resim-->
+
+	<!--team-->
+<div class="container-fluid" id="team">   
+    <div class="row no-gutters">
+        <div class="col-4">Ekibimiz...</div>
+        <div class="col-8"></div>
+
+        <div class="col-6" id="teamcol6">YTK Birimimiz</div>
+        <div class="col-6" id="teamcol6">Çevre Birimimiz</div>
+
+        <div class="col-6">
+        	<ul>
+                <li>Tuba Onur Erbaş | Maden Mühendisi | <b>Koordinatör</b> (5.1a)</li>
+                <li>Ozan Düdükcü | Jeoloji Mühendisi | <b>Koordinatör</b> (5.1a)</li>
+                <li>İnanç Gökgöz Düdükcü | Jeoloji Mühendisi | <b>Koordinatör</b> (5.1a)</li>
+                <li>Şilan Gizem Ceylan | Çevre Mühendisi (5.1b)</li>
+                <li>Cavit Erdem | Jeoloji Mühendisi (5.1c)</li>
+                <li>Burcu Duvan | Maden Mühendisi (5.1c)</li>
+                <li>Fetiye Çetin | Maden Mühendisi (5.2)</li>
+                <li>Pınar Demir | Maden Mühendisi (5.1c)</li>
+                <li>Elif Bulut | Harita Mühendisi (5.1b)</li>
+            </ul>
+        </div>
+        <div class="col-6">
+        	<ul>
+                <li>Tuba Onur Erbaş | Maden Mühendisi (5.1b)</li>
+                <li>Ozan Düdükcü | Jeoloji Mühendisi (5.1b)</li>
+                <li>Volkan Kancı | Orman Mühendisi | <b>Koordinatör</b> (5.1c)</li>
+                <li>İnanç Gökgöz Düdükcü | Jeoloji Mühendisi (5.1ç)</li>
+                <li>Şilan Gizem Ceylan | Çevre Mühendisi (5.1ç)</li>  
+                <li>Cavit Erdem | Jeoloji Mühendisi (5.1ç)</li>
+                <li>Burcu Duvan | Maden Mühendisi (5.1ç)</li>
+		<li>Pınar Demir | Maden Mühendisi (5.1ç)</li>
+                <li>Elif Bulut | Harita Mühendisi (5.1ç)</li>
+            </ul>
+        </div>
+    </div>
+</div>  
+    <!--team-->
+    
+    <!--resim-->
+<div class="container-fluid" id="office">   
+    <div class="row no-gutters"></div>
+</div>    
+    <!--resim-->
+    
+    <!--law-->
+<div class="container-fluid" id="lawandrule">   
+    <div class="row no-gutters">
+    	
+        <div class="col-6">Maden Kanunları</div>
+        <div class="col-6">İlgili Kanunlar</div>
+        
+        <div class="col-1" id="lawandrulefirst">Tarih</div>
+        <div class="col-1" id="lawandrulesecond">Sayı</div>
+        <div class="col-4" id="lawandrulesecond">Kanun</div>
+        <div class="col-1" id="lawandrulesecond">Tarih</div>
+        <div class="col-1" id="lawandrulesecond">Sayı</div>
+        <div class="col-4" id="lawandrulethird">Kanun</div>
+        
+        <div class="col-1">
+			<ul>
+                <li>18.05.2017</li>
+                <li>04.06.2016</li>
+                <li>03.06.2007</li>
+                <li>15.06.1985</li>
+                <li>11.03.1954</li>
+                <li>28.02.1906</li>
+                <li>06.06.1901</li>
+                <li>>01.01.1858</li>
+			</ul>
+        </div>
+        <div class="col-1">
+            <ul>
+                <li>7020</li>
+                <li>6592</li>
+                <li>5686</li>
+                <li>3213</li>
+                <li>6309</li>
+                <li>----</li>
+                <li>----</li>
+                <li>----</li>
+			</ul>
+        </div>
+        <div class="col-4">
+            <ul>
+                <li><a href="http://www.migem.gov.tr/mevzuat/kanun-dok/0206kanun.pdf">Maden Kanunu ile Bazı Kanunlarda Değişiklik Yapılmasına Dair Kanun</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/kanun-dok/6592.pdf">Maden Kanunu ile Bazı Kanunlarda Değişiklik Yapılmasına Dair Kanun</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/kanun-dok/5686kanun.pdf">Jeotermal Kaynaklar ve Doğal Mineralli Sular Kanunu</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/kanun-dok/1_5_3213.pdf">Maden Kanunu</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/kanun-dok/6309maden.pdf">Maden Kanunu</a> </li>
+                <li><a href="">Maden Nizamnamesi</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/kanun-dok/1901maden.pdf">Taş Ocakları Nizamnamesi</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/kanun-dok/1858arazi.pdf">Arazi Kanunu</a></li>
+            </ul>
+        </div>
+        <div class="col-1">
+            <ul>
+                <li>03.07.2005</li>
+                <li>30.03.2005</li>
+                <li>14.07.2004</li>
+                <li>10.07.2004</li>
+                <li>27.05.2004</li>
+                <li>15.01.2004</li>
+                <li>24.07.2003</li>
+                <li>10.04.2000</li>
+                <li>12.03.1982</li>
+                <li>18.12.1981</li>
+                <li>16.12.1960</li>
+                <li>26.01.1939</li>
+            </ul>
+        </div>
+        <div class="col-1">
+            <ul>
+                <li>5393</li>
+                <li>5326</li>
+                <li>5226</li>
+                <li>5216</li>
+                <li>5148</li>
+                <li>5070</li>
+                <li>4957</li>
+                <li>4562</li>
+                <li>2634</li>
+                <li>2565</li>
+                <li>167</li>
+                <li>3573</li>
+            </ul>
+        </div>
+        <div class="col-4">
+            <ul>
+                <li><a href="http://www.migem.gov.tr/mevzuat/kanun-dok/5393kanun.pdf">Belediye Kanunu</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/kanun-dok/5326kanun.pdf">Kabahatler Kanunu</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/kanun-dok/5226kanun.pdf">Kültür ve Tab. Varlıklarını Kor. Kanunu ile Çeşitli Kan. Değ. Yap. Dair Kanun</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/kanun-dok/5216kanun.pdf">Büyükşehir Belediyesi Kanunu</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/kanun-dok/5178kanun.pdf">Mera Kanunu ile Bazı Kanunlarda Değişiklik Yapılması Hakkında Kanun</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/kanun-dok/5070kanun.pdf">Elektronik İmza Kanunu</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/kanun-dok/4957kanun.pdf">Turizmi Teşvik Kanununda Değişiklik Yapılması Hakkında Kanun</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/kanun-dok/4562kanun.pdf">Organize Sanayi Bölgeleri Kanunu</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/kanun-dok/2634kanun.pdf">Turizmi Teşvik Kanunu</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/kanun-dok/2565kanun.pdf">Askeri Yasak Bölgeler ve Güvenlik Bölgeleri Kanunu</a></li> 
+                <li><a href="http://www.migem.gov.tr/mevzuat/kanun-dok/167kanun.pdf">Yeraltı Suları Hakkında Kanun</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/kanun-dok/3573kanun.pdf">Zeytinciliğin Islahı ve Yabanilerinin Aşılattırılması Hakkında Kanun</a></li> 
+            </ul>
+        </div>
+    </div>
+</div>       
+    <!--law-->
+
+	<!--resim-->
+<div class="container-fluid" id="hammer">   
+    <div class="row no-gutters"></div>
+</div>    
+    <!--resim-->
+    
+    <!--rule-->
+<div class="container-fluid" id="lawandrule">   
+    <div class="row no-gutters">
+        <div class="col-6">Maden Yönetmelikleri</div>
+        <div class="col-6">İlgili Yönetmelikler</div>
+        
+        <div class="col-1" id="lawandrulefirst">Tarih</div>
+        <div class="col-1" id="lawandrulesecond">Sayı</div>
+        <div class="col-4" id="lawandrulesecond">Kanun</div>
+        <div class="col-1" id="lawandrulesecond">Tarih</div>
+        <div class="col-1" id="lawandrulesecond">Sayı</div>
+        <div class="col-4" id="lawandrulethird">Kanun</div>
+        
+        <div class="col-1">
+			<ul>
+                <li>23.05.2018</li>
+                <li>21.09.2017</li>
+                <li>21.09.2017</li>
+                <li>26.07.2017</li>
+                <li>21.07.2017</li>
+                <li>03.06.2016</li>
+                <li>15.07.2015</li>
+                <li>30.05.2014</li>
+                <li>06.11.2010</li>
+                <li>11.12.2007</li>
+                <li>03.02.2005</li>
+                <li>21.06.2005</li>
+                <li>----</li>
+			</ul>
+        </div>
+        <div class="col-1">
+            <ul>
+                <li>30429</li>
+                <li>30187</li>
+                <li>30187</li>
+                <li>30130</li>
+                <li>30130</li>
+                <li>29731</li>
+                <li>29417</li>
+                <li>29015</li>
+                <li>27751</li>
+                <li>26727</li>
+                <li>25716</li>
+                <li>25852</li>
+                <li>----</li>
+			</ul>
+        </div>
+        <div class="col-4">
+            <ul>
+                <li><a href="http://www.migem.gov.tr/mevzuat/yonetmelik-dok/RG_Maden%20B%C3%B6lgelerine%20Ve%20Ruhsatlar%C4%B1n%20Ta%C5%9F%C4%B1nmas%C4%B1na%20%C4%B0li%C5%9Fkin%20Y%C3%B6netmelik.pdf">Maden Bölgelerine ve Ruhsatların Taşınmasına İlişkin Yönetmelik</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/yonetmelik-dok/21092017maden_yonetmeligi.pdf">Maden Yönetmeliği</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/yonetmelik-dok/21092017maden_sahalari_ihale_yonetmeligi.pdf">Maden Sahaları İhale Yönetmeliği</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/yonetmelik-dok/umrek_yonetmelik2912.pdf">Ulusal Maden Kaynak ve Rezerv Raporlama Komisyonu Hak. Yönetmelik</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/yonetmelik-dok/2107yon.pdf">Türk. Yerbilimleri Veri ve Karot Bilgi Bank. Gör. Çal. Usul ve Esas. Yönet.</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/yonetmelik-dok/2016ytk%20yonetmelik.pdf">Yetkilendirilmiş Tüzel Kişiler ile İlgili Yönetmelik</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/yonetmelik-dok/MADEN%20ATIKLARI%20y%C3%B6netmelik.pdf">Maden Atıkları Yönetmeliği</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/yonetmelik-dok/29015yonetmelik.pdf">Jeotermal Kay. ve Doğal Min. Sul. Kan. Uyg. Yön. Değişiklik Yap. Dair Yön.</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/yonetmelik-dok/27751yonetmelik.pdf">Madencilik Faaliyetleri Uygulama Yönetmeliği</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/yonetmelik-dok/26727yonetmelik.pdf">Jeotermal Kaynaklar ve Doğal Mineralli Sular Kanunu Uyg. Yönetmeliği</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/yonetmelik-dok/25716yonetmelik.pdf">1(a) Grubu Madenleri ile İlgili Uygulama Yönetmeliği</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/yonetmelik-dok/25852yonetmelik.pdf">Madencilik Faaliyetleri İzin Yönetmeliği</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/yonetmelik-dok/1a1b-intibak.pdf">1(a) 1(b) İntibak Genelgesi</a></li> 
+            </ul>
+        </div>
+        <div class="col-1">
+            <ul>
+                <li>06.07.2018</li>
+                <li>25.06.2009</li>
+                <li>16.12.2007</li>
+                <li>08.12.2007</li>
+                <li>13.04.2007</li>
+                <li>21.09.2005</li>
+                <li>18.03.2004</li>
+                <li>21.02.2004</li>
+            </ul>
+        </div>
+        <div class="col-1">
+            <ul>
+                <li>30470</li>
+                <li>27269</li>
+                <li>26730</li>
+                <li>26724</li>
+                <li>26492</li>
+                <li>25943</li>
+                <li>25406</li>
+                <li>25380</li>
+            </ul>
+        </div>
+        <div class="col-4">
+            <ul>
+                <li><a href="http://www.migem.gov.tr/mevzuat/yonetmelik-dok/30470yonetmelik.pdf">Orman Kanunu'nun 16. Maddesinin Uyg. Yön. Değ. Yap. Dair Yönetmelik</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/yonetmelik-dok/27269yonetmelik.pdf">Orman Sayılacak Alanlarda Ver. İzinler Hak. Değ. Yap. Dair. Yönetmelik</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/yonetmelik-dok/26730yonetmelik.pdf">Madencilik Faal. ile Bozulan Arazinin Doğaya Yeniden Kaz. Yönetmeliği</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/yonetmelik-dok/26724yonetmelik.pdf">Kum Çakıl v.b. Maddelerin Alınması, İşletilmesi ve Kontrolü Yönetmeliği</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/yonetmelik-dok/26492yonetmelik.pdf">İşyeri Açma ve Çalışma Ruhsat. İlişkin Yön. Değ. Yap. Dair Yönetmelik</a></li> 
+                <li><a href="http://www.migem.gov.tr/mevzuat/yonetmelik-dok/25943yonetmelik.pdf">Serbest Mad. Müh. Hiz. Uygulama Tes. Den. ve Belgelendirme Yön.</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/yonetmelik-dok/25406yonetmelik.pdf">Hafriyat Toprağı, İnşaat ve Yıkıntı Atıklarının Kontrolü Yönetmeliği</a></li>
+                <li><a href="http://www.migem.gov.tr/mevzuat/yonetmelik-dok/25380yonetmelik.pdf">Yeraltı ve Yerüstü Maden İşletmelerinde Sağlık ve Güvenlik Şartları Yön.</a></li> 
+            </ul>
+        </div>
+    </div>
+</div>           
+    <!--rule-->
+
+	<!--resim-->
+<div class="container-fluid" id="bookshelf">   
+    <div class="row no-gutters"></div>
+</div>
+	<!--resim-->
+
+	<!--reference-->
+<div class="container-fluid" id="reference">   
+    <div class="row no-gutters">
+    	<div class="col-8" id="referencefirst">Madencilik Ortaklarımız...</div>
+        <div class="col-4" id="referencefirst">Çevre Ortaklarımız...</div>
+    
+        <div class="col-2" id="referencesecond">
+        	<ul>
+            	<li><img src="img/ref/hat.png">Altıntaş1 Madencilik</li>
+            	<li><img src="img/ref/hat.png">Ali Akdopan Mermer</li>
+                <li><img src="img/ref/hat.png">Alpago Madencilik</li>
+                <li><img src="img/ref/hat.png">Ayvalık Belediyesi</li>
+                <li><img src="img/ref/hat.png">Başmer Mermer</li>
+                <li><img src="img/ref/hat.png">Burdur Mermer</li>
+                <li><img src="img/ref/hat.png">Büyükakça Madencilik</li>
+                <li><img src="img/ref/hat.png">CTM Mermer</li>
+                <li><img src="img/ref/hat.png">Çallıoğlu Madencilik</li>
+                <li><img src="img/ref/hat.png">Çaylakoğlu Elektrik</li>
+                <li><img src="img/ref/hat.png">Çeliksan Madencilik</li>
+            </ul>
+		</div>
+        <div class="col-2" id="referencesecond">
+			<ul>
+            	<li><img src="img/ref/hat.png">Çetin Maden</li>
+                <li><img src="img/ref/hat.png">DDK Madencilik</li>
+                <li><img src="img/ref/hat.png">Denizli Traverten</li>
+                <li><img src="img/ref/hat.png">Desen Mermer</li>
+                <li><img src="img/ref/hat.png">Diyar Madencilik</li>
+                <li><img src="img/ref/hat.png">Dursun Mermer</li>
+                <li><img src="img/ref/hat.png">Ece Mermer</li>
+                <li><img src="img/ref/hat.png">Ege Beyaz Mermer</li>
+                <li><img src="img/ref/hat.png">Elyson Mermer</li>
+                <li><img src="img/ref/hat.png">Global Fortune</li>
+                <li><img src="img/ref/hat.png">Goldmer Marble</li>
+			</ul>
+		</div>
+        <div class="col-2" id="referencesecond">
+			<ul>
+            	<li><img src="img/ref/hat.png">Hong Global</li>
+                <li><img src="img/ref/hat.png">Masif Maden</li>
+                <li><img src="img/ref/hat.png">Metro Maden</li>
+                <li><img src="img/ref/hat.png">Mu Ki Ma Mermer</li>
+                <li><img src="img/ref/hat.png">Omar Madencilik</li>
+                <li><img src="img/ref/hat.png">Omeks Madencilik</li>
+                <li><img src="img/ref/hat.png">Onyapı İnşaat</li>
+                <li><img src="img/ref/hat.png">Öztaş Mermer</li>
+                <li><img src="img/ref/hat.png">Öztuğra Mermer</li>
+                <li><img src="img/ref/hat.png">Pusula Doğaltaş</li>
+                <li><img src="img/ref/hat.png">Ses-Taş Maden</li>
+			</ul>
+		</div>
+        <div class="col-2" id="referencesecond">
+			<ul>
+            	<li><img src="img/ref/hat.png">Uki Madencilik</li>
+                <li><img src="img/ref/hat.png">Volkan Kancı</li>
+                <li><img src="img/ref/hat.png">Yavuz Türkel</li>
+                <li><img src="img/ref/hat.png">Yaylak Granit</li>
+                <li><img src="img/ref/hat.png">YDS Turizm</li>
+                <li><img src="img/ref/hat.png">Yuno Madencilik</li>
+                <li><img src="img/ref/hat.png">Yüce Mermer</li>
+                <li><img src="img/ref/hat.png">Zehra Özdemir</li>
+                <li><img src="img/ref/hat.png">Zentra Madencilik</li>
+                <li><img src="img/ref/hat.png">Zertaş Madencilik</li>
+                <li><img src="img/ref/hat.png">Zhenfa Madencilik</li>
+			</ul>
+		</div>
+        <div class="col-2" id="referencesecond">
+        	<ul>
+            	<li><img src="img/ref/a2.png">Alpago Madencilik</li>
+                <li><img src="img/ref/a2.png">Altıntaş1 Madencilik</li>
+                <li><img src="img/ref/a2.png">Başmer Mermer</li>
+                <li><img src="img/ref/a2.png">Çaylakoğlu Elektrik</li>
+                <li><img src="img/ref/a2.png">DDK Madencilik</li>
+                <li><img src="img/ref/a2.png">Diyar Madencilik</li>
+                <li><img src="img/ref/a2.png">Dursun Mermer</li>
+                <li><img src="img/ref/a2.png">Ece Mermer</li>
+				<li><img src="img/ref/a2.png">Ege Beyaz Mermer</li>
+                <li><img src="img/ref/a2.png">Elyson Mermer</li>
+                <li><img src="img/ref/a2.png">Global Fortune</li>
+			</ul>
+        </div>
+        <div class="col-2" id="referencesecond">
+        	<ul>
+                <li><img src="img/ref/a2.png">Hong Global</li>
+            	<li><img src="img/ref/a2.png">Masif Maden</li>
+                <li><img src="img/ref/a2.png">Mu Ki Ma Mermer</li>
+                <li><img src="img/ref/a2.png">Omar Madencilik</li>
+                <li><img src="img/ref/a2.png">Uki Madencilik</li>
+                <li><img src="img/ref/a2.png">Volkan Kancı</li>
+                <li><img src="img/ref/a2.png">Yavuz Türkel</li>
+                <li><img src="img/ref/a2.png">Yaylak Granit</li>
+                <li><img src="img/ref/a2.png">Yüce Mermer</li>
+                <li><img src="img/ref/a2.png">Zehra Özdemir</li>
+                <li><img src="img/ref/a2.png">Zertaş Madencilik</li>
+			</ul>
+        </div>
+    </div>
+</div>
+	<!--reference-->
+
+	<!--resim-->
+<div class="container-fluid" id="handshake">   
+    <div class="row no-gutters"></div>
+</div>	    
+    <!--resim-->
+
+	<!--contact-->
+<div class="container-fluid" id="contact">   
+    <div class="row no-gutters">
+		<div class="col-3"></div>
+        <div class="col-3" id="contactinfo">
+        	<img src="img/logo.png" class="img-fluid mx-auto d-block" alt="Responsive image" style="padding-bottom:20px">
+            Madencilik Mühendislik Müşavirlik San. ve Tic. Ltd. Şti.<br />
+            <b>jura@juramuhendislik.com</b><br />
+            0312 213 23 45 - 0532 053 30 45<br />
+            Emek Mahallesi Bişkek Caddesi No:34/4<br />
+            Çankaya, Ankara
+		</div>        	
+		<div class="col-6" id="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.8062900296322!2d32.815178315352206!3d39.92335097942555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34f30e8301fd9%3A0xa682ad497427aec9!2zSlVSQSBNQURFTkPEsEzEsEsgTcOcSEVORMSwU0zEsEs!5e0!3m2!1sen!2str!4v1539241849404" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+			</iframe>
+		</div>        
+	</div>
+</div>       
+    <!--contact-->
+
+	<!--resim-->
+<div class="container-fluid" id="street">   
+    <div class="row no-gutters"></div>
+</div>
+	<!--resim-->
+
+</body>
+</html>
